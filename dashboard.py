@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-#  API_URL = "http://localhost:____"    uncomment this before running the app, and make sure FastAPI is running on that port
+#  API_URL = "http://localhost:8001"    
 
 TOP_FEATURES            = ['BILL_AMT3', 'PAY_AMT1', 'BILL_AMT1', 'AGE', 'LIMIT_BAL']
 TOP_ENGINEERED_FEATURES = ['ZERO_PAY_COUNT', 'AVG_PAID', 'MAX_BILL', 'LIMIT_PER_AGE', 'TOTAL_PAID']
