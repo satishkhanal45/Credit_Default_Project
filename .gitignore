@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.ipynb_checkpoints/
+
+artifacts/
+
+mlruns/
+mlflow.db
+
+UCI_Credit_Card.csv
+
+.DS_Store
+Thumbs.db
